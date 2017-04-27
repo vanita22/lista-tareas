@@ -1,5 +1,5 @@
 var iden = data.forEach(function(element){
-	document.write("<li>"+"<b> Lista " + element.id + " : </b>"+ element.title +"</li>" + "<br>");
+	document.write("<li>"+"<b> Lista : </b>"+ element.title +"</li>" + "<br>");
 });
 
 iden();
