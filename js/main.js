@@ -9,10 +9,9 @@ function ListaTareas(){
 
 	var contLista = document.getElementsByClassName("list");
 
-	contLista[0].innerHTML += input.value +"<br>";
+	contLista[0].innerHTML += "<li>" + "<b> Lista : </b>"+ input.value + "</li>" + "<br>";
 
 	input.value = " ";
-	document.write("<li>"+"<b> Lista " + element.id + " : </b>"+ input.value +"</li>" + "<br>")
 }
  
 
