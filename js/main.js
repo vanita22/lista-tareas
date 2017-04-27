@@ -14,7 +14,7 @@ function ListaTareas(){
 	input.value = " ";
 }
  
-
+data.title.push(ListaTareas().pop);
 
 
 
